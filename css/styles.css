@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    background-color: #fff;
+    font-family: Roboto;
+    margin: 0;
+}
+
+header {
+    background-color: #F2F2F2;
+    padding: auto;
+}
+
+.orange {
+    color: #ff5c0f;
+}
+
+.header-list {
+    list-style: none;
+    padding: 0em;
+}
+
+.body-list {
+    display: list-item;
+    align-items: right;
+    padding-left: 15px;
+}
+
+h1 {
+    margin: 0;
+    color: #20a8b4;
+}
+
+img {
+    display: none;
+}
+
+button{
+    background-color: #20a8b4;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #ff5c0f;
+    box-shadow: none
+}
+
+a {
+    transition-duration: 0.4s;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+ .button a{
+    color: #fff;
+    width: 100%;
+} 
+/* ul {
+    display: inline;
+} */
+@media screen and (min-width: 768px) {
+    
+    .orange {
+        color: #ff5c0f;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+        height: 85px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    li {
+        display: inline;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .button a {
+        color: #fff;
+        width: auto;
+        border: none;
+    }
+
+    .button {
+        width: auto;
+        border: none;
+    }
+
+    img {
+        display: list-item;
+        justify-content: right;
+        padding-left: 15px;
+        width: 90%;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contentp {
+        width: 50%;
+        text-align: left;
+        height: 100vh;
+        align-items: center;
+        margin-top: 15em;
+        margin-left: 1em;
+    }
+    
+    .contenti {
+        width: 50%;
+        text-align: left;
+        height: 100vh; 
+        align-items: center;
+        margin-top: 10em;
+    }
+}
